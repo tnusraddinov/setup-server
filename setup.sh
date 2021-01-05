@@ -22,7 +22,7 @@ sudo pip3 install gunicorn #gunicorn should be installed with sudo
 sudo apt-get install -y build-essential libssl-dev libffi-dev python-dev
 
 # Docker + Compose (logout/login needed)
-sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+sudo apt install -y gpg-agent apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 sudo apt update
