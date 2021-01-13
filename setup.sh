@@ -3,7 +3,7 @@ sudo apt update
 sudo apt -y upgrade
 
 #generic tools
-sudo apt install -y git curl jq tmux htop gpg-agent ubuntu-drivers-common software-properties-common 
+sudo apt install -y git curl jq tmux htop gpg-agent ubuntu-drivers-common software-properties-common certbot tcptrack
 
 #setup python
 sudo apt install -y python3 python3-pip
